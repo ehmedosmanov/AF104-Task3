@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.dvd svg {
+    fill: green;
+    width: 440px;
+    height: 440px;
+    animation-name: bouncing;
+    animation-direction: alternate;
+    animation-duration: 17s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bouncing {
+    0% {
+        transform: translate(0, 0);
+        fill: green;
+
+
+    }
+
+    20% {
+        transform: translate(560px, 560px);
+        fill: red;
+
+    }
+
+    40% {
+        transform: translate(1100px, -100px);
+        fill: violet;
+    }
+
+    60% {
+        transform: translate(0, 0);
+        fill: yellow;
+
+    }
+
+    80% {
+        transform: translate(50px, 545px);
+        fill: orange;
+
+    }
+
+    100% {
+        transform: translate(1280px, 245px);
+        fill: pink;
+
+    }
+
+}
