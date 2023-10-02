@@ -6,6 +6,7 @@
 
 body {
     background-color: #000;
+    overflow: hidden;
 }
 
 .dvd svg {
@@ -14,7 +15,7 @@ body {
     height: 440px;
     animation-name: bouncing;
     animation-direction: alternate;
-    animation-duration: 17s;
+    animation-duration: 7s;
     animation-delay: 2s;
     animation-iteration-count: infinite;
 }
@@ -39,13 +40,13 @@ body {
     }
 
     60% {
-        transform: translate(0, 0);
+        transform: translate(400px, 550px);
         fill: yellow;
 
     }
 
     80% {
-        transform: translate(50px, 545px);
+        transform: translate(0px, 100px);
         fill: orange;
 
     }
